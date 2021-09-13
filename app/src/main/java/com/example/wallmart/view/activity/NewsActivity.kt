@@ -22,5 +22,6 @@ class NewsActivity : AppCompatActivity() {
             R.layout.activity_news
         )
         binding.viewmodel = viewModel
+        viewModel.getNews()
     }
 }
