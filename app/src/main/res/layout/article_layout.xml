@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardBackgroundColor="@color/white"
+    app:cardCornerRadius="@dimen/dp_20"
+    app:cardElevation="@dimen/dp_12">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/dp_12"
+        android:paddingTop="@dimen/dp_6"
+        android:paddingEnd="@dimen/dp_12"
+        android:paddingBottom="@dimen/dp_6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/image_iv"
+            style="@style/imageStyle"
+            android:src="@drawable/ic_launcher_background"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/title_tv"
+            style="@style/titleStyle"
+            android:layout_marginTop="@dimen/dp_6"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/image_iv" />
+
+        <TextView
+            android:id="@+id/description_tv"
+            style="@style/descriptionStyle"
+            android:layout_marginTop="@dimen/dp_6"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/title_tv" />
+
+        <TextView
+            android:id="@+id/source_tv"
+            style="@style/sourceStyle"
+            android:layout_marginTop="@dimen/dp_6"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/description_tv" />
+
+        <TextView
+            android:id="@+id/date_tv"
+            style="@style/dateStyle"
+            android:layout_marginTop="@dimen/dp_6"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/description_tv" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>
