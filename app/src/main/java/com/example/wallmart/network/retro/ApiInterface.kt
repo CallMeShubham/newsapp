@@ -9,6 +9,6 @@ import retrofit2.http.GET
  */
 interface ApiInterface {
 
-    @GET()
+    @GET("top-headlines?country=us&apiKey=50c1bd99f6464242aab6405aa2ca35a5")
     fun getNews(): Call<News>
 }
