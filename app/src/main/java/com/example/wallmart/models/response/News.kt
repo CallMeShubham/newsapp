@@ -6,5 +6,5 @@ package com.example.wallmart.models.response
 data class News(
     var status: String,
     var totalResult: Int,
-    var listOfArticles: List<ArticleList>
+    var articleList: List<Article>
 )

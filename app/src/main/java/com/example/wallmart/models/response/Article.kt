@@ -3,7 +3,7 @@ package com.example.wallmart.models.response
 /**
  * domain class for holding the article details
  */
-data class ArticleList(var source: NewsSource, var title : String, var description : String,
+data class Article(var source: NewsSource, var title : String, var description : String,
 var url : String, var urlToImage : String, var publishedAt : String)
 
 /**
