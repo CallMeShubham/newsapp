@@ -7,4 +7,4 @@ It also shows the use of latest jetpack components like lifecycle and use of Goo
 
 Import it in android studio and run it on Android device to view the below UI.
 
-<img src="https://user-images.githubusercontent.com/45541037/134461473-a303dc3d-1a4b-4f9b-8d4f-d9e402842f26.jpg" width="300" height="500">
+<img src="https://user-images.githubusercontent.com/45541037/134461473-a303dc3d-1a4b-4f9b-8d4f-d9e402842f26.jpg" width="400" height="700">
